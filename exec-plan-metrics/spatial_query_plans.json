@@ -1,0 +1,45 @@
+                                                                      QUERY PLAN                                                                       
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+ [                                                                                                                                                    +
+   {                                                                                                                                                  +
+     "Plan": {                                                                                                                                        +
+       "Node Type": "Seq Scan",                                                                                                                       +
+       "Parallel Aware": false,                                                                                                                       +
+       "Async Capable": false,                                                                                                                        +
+       "Relation Name": "properties",                                                                                                                 +
+       "Alias": "properties",                                                                                                                         +
+       "Startup Cost": 0.00,                                                                                                                          +
+       "Total Cost": 626462.00,                                                                                                                       +
+       "Plan Rows": 5,                                                                                                                                +
+       "Plan Width": 131,                                                                                                                             +
+       "Actual Startup Time": 742.343,                                                                                                                +
+       "Actual Total Time": 742.344,                                                                                                                  +
+       "Actual Rows": 0,                                                                                                                              +
+       "Actual Loops": 1,                                                                                                                             +
+       "Filter": "st_dwithin((location)::geography, '0101000020E6100000AAF1D24D628052C05E4BC8073D5B4440'::geography, '1000'::double precision, true)",+
+       "Rows Removed by Filter": 50000                                                                                                                +
+     },                                                                                                                                               +
+     "Planning Time": 26.036,                                                                                                                         +
+     "Triggers": [                                                                                                                                    +
+     ],                                                                                                                                               +
+     "JIT": {                                                                                                                                         +
+       "Functions": 2,                                                                                                                                +
+       "Options": {                                                                                                                                   +
+         "Inlining": true,                                                                                                                            +
+         "Optimization": true,                                                                                                                        +
+         "Expressions": true,                                                                                                                         +
+         "Deforming": true                                                                                                                            +
+       },                                                                                                                                             +
+       "Timing": {                                                                                                                                    +
+         "Generation": 0.785,                                                                                                                         +
+         "Inlining": 213.550,                                                                                                                         +
+         "Optimization": 67.314,                                                                                                                      +
+         "Emission": 53.859,                                                                                                                          +
+         "Total": 335.507                                                                                                                             +
+       }                                                                                                                                              +
+     },                                                                                                                                               +
+     "Execution Time": 1456.471                                                                                                                       +
+   }                                                                                                                                                  +
+ ]
+(1 row)
+

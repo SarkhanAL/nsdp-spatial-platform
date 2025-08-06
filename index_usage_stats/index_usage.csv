@@ -1,0 +1,8 @@
+relid,indexrelid,schemaname,relname,indexrelname,idx_scan,idx_tup_read,idx_tup_fetch
+33034,33041,scm_geo_db,properties,properties_pkey,1,50000,0
+33034,33047,scm_geo_db,properties,idx_properties_location,3,53920,0
+33034,33048,scm_geo_db,properties,idx_properties_h3_8,1,50000,0
+33034,33050,scm_geo_db,properties,idx_properties_h3_10,0,0,0
+33034,33060,scm_geo_db,properties,idx_properties_price_area,0,0,0
+33034,33061,scm_geo_db,properties,idx_properties_type_location,4,200000,200000
+33034,33062,scm_geo_db,properties,idx_properties_high_value,0,0,0

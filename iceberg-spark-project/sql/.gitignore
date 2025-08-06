@@ -1,0 +1,7 @@
+# Secrets
+config.sh
+
+# Spark/IDE
+derby.log
+.metastore_db
+.spark-*
